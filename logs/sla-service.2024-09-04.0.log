@@ -1,0 +1,1320 @@
+[33m[2024-09-04 11:49:47.847][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Starting SlaApplication using Java 19.0.1 with PID 5622 (/Users/danaimunjemu/Downloads/sla-v3/target/classes started by danaimunjemu in /Users/danaimunjemu/Downloads/sla-v3)
+[33m[2024-09-04 11:49:47.848][0;39m [39mDEBUG[0;39m
+                [[36msla-service[0;39m, [39mtraceId[0;39m=[31mNONE[0;39m, [39mspanId[0;39m=NONE] - Running with Spring Boot v3.3.1, Spring v6.1.10
+[33m[2024-09-04 11:49:47.848][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - No active profile set, falling back to 1 default profile: "default"
+[33m[2024-09-04 11:49:48.336][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[33m[2024-09-04 11:49:48.369][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Finished Spring Data repository scanning in 29 ms. Found 6 JPA repository interfaces.
+[33m[2024-09-04 11:49:48.725][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Tomcat initialized with port 8076 (http)
+[33m[2024-09-04 11:49:48.731][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Initializing ProtocolHandler ["http-nio-8076"]
+[33m[2024-09-04 11:49:48.732][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Starting service [Tomcat]
+[33m[2024-09-04 11:49:48.732][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Starting Servlet engine: [Apache Tomcat/10.1.25]
+[33m[2024-09-04 11:49:48.758][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Initializing Spring embedded WebApplicationContext
+[33m[2024-09-04 11:49:48.758][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Root WebApplicationContext: initialization completed in 889 ms
+[33m[2024-09-04 11:49:48.863][0;39m [39mDEBUG[0;39m
+                [[36msla-service[0;39m, [39mtraceId[0;39m=[31mNONE[0;39m, [39mspanId[0;39m=NONE] - Filter 'corsFilterConfig' configured for use
+[33m[2024-09-04 11:49:48.916][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Starting...
+[33m[2024-09-04 11:49:49.205][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@10f20d38
+[33m[2024-09-04 11:49:49.205][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Start completed.
+[33m[2024-09-04 11:49:49.365][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Set default schema name to public
+[33m[2024-09-04 11:49:49.492][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Reading resource: liquibase/changelogs/24-01-changelog.yaml
+[33m[2024-09-04 11:49:49.601][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Reading from public.databasechangelog
+[33m[2024-09-04 11:49:49.644][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Database is up to date, no changesets to execute
+[33m[2024-09-04 11:49:49.645][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Reading from public.databasechangelog
+[33m[2024-09-04 11:49:49.649][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - UPDATE SUMMARY
+[33m[2024-09-04 11:49:49.649][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Run:                          0
+[33m[2024-09-04 11:49:49.649][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Previously run:              16
+[33m[2024-09-04 11:49:49.649][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Filtered out:                 0
+[33m[2024-09-04 11:49:49.649][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - -------------------------------
+[33m[2024-09-04 11:49:49.649][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Total change sets:           16
+[33m[2024-09-04 11:49:49.649][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Update summary generated
+[33m[2024-09-04 11:49:49.815][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Successfully released change log lock
+[33m[2024-09-04 11:49:49.817][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Command execution complete
+[33m[2024-09-04 11:49:49.879][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[33m[2024-09-04 11:49:49.909][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HHH000412: Hibernate ORM core version 6.5.2.Final
+[33m[2024-09-04 11:49:49.925][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HHH000026: Second-level cache disabled
+[33m[2024-09-04 11:49:50.070][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[33m[2024-09-04 11:49:51.445][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[33m[2024-09-04 11:49:51.449][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[33m[2024-09-04 11:49:51.957][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[33m[2024-09-04 11:49:52.667][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Exposing 16 endpoints beneath base path '/admin'
+[33m[2024-09-04 11:49:52.732][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: Another endpoint is already registered with id 'recordListener'
+[33m[2024-09-04 11:49:52.735][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[33m[2024-09-04 11:49:52.736][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Shutdown initiated...
+[33m[2024-09-04 11:49:52.738][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Shutdown completed.
+[33m[2024-09-04 11:49:52.740][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Stopping service [Tomcat]
+[33m[2024-09-04 11:49:52.751][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[33m[2024-09-04 11:49:52.765][0;39m [1;31mERROR[0;39m
+                [[36msla-service[0;39m, [1;31mtraceId[0;39m=[31mNONE[0;39m, [1;31mspanId[0;39m=NONE] - Application run failed
+java.lang.IllegalStateException: Another endpoint is already registered with id 'recordListener'
+	at org.springframework.util.Assert.state(Assert.java:76)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.registerListenerContainer(KafkaListenerEndpointRegistry.java:266)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.registerListenerContainer(KafkaListenerEndpointRegistry.java:240)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistrar.registerAllEndpoints(KafkaListenerEndpointRegistrar.java:197)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistrar.afterPropertiesSet(KafkaListenerEndpointRegistrar.java:187)
+	at org.springframework.kafka.annotation.KafkaListenerAnnotationBeanPostProcessor.afterSingletonsInstantiated(KafkaListenerAnnotationBeanPostProcessor.java:340)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:986)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at zw.co.afc.orbit.sla.SlaApplication.main(SlaApplication.java:10)
+[33m[2024-09-04 11:58:02.988][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Starting SlaApplication using Java 19.0.1 with PID 5823 (/Users/danaimunjemu/Downloads/sla-v3/target/classes started by danaimunjemu in /Users/danaimunjemu/Downloads/sla-v3)
+[33m[2024-09-04 11:58:02.988][0;39m [39mDEBUG[0;39m
+                [[36msla-service[0;39m, [39mtraceId[0;39m=[31mNONE[0;39m, [39mspanId[0;39m=NONE] - Running with Spring Boot v3.3.1, Spring v6.1.10
+[33m[2024-09-04 11:58:02.989][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - No active profile set, falling back to 1 default profile: "default"
+[33m[2024-09-04 11:58:03.498][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[33m[2024-09-04 11:58:03.538][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Finished Spring Data repository scanning in 35 ms. Found 6 JPA repository interfaces.
+[33m[2024-09-04 11:58:03.916][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Tomcat initialized with port 8076 (http)
+[33m[2024-09-04 11:58:03.922][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Initializing ProtocolHandler ["http-nio-8076"]
+[33m[2024-09-04 11:58:03.922][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Starting service [Tomcat]
+[33m[2024-09-04 11:58:03.922][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Starting Servlet engine: [Apache Tomcat/10.1.25]
+[33m[2024-09-04 11:58:03.954][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Initializing Spring embedded WebApplicationContext
+[33m[2024-09-04 11:58:03.954][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Root WebApplicationContext: initialization completed in 946 ms
+[33m[2024-09-04 11:58:04.067][0;39m [39mDEBUG[0;39m
+                [[36msla-service[0;39m, [39mtraceId[0;39m=[31mNONE[0;39m, [39mspanId[0;39m=NONE] - Filter 'corsFilterConfig' configured for use
+[33m[2024-09-04 11:58:04.117][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Starting...
+[33m[2024-09-04 11:58:04.629][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@191e654
+[33m[2024-09-04 11:58:04.630][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Start completed.
+[33m[2024-09-04 11:58:04.727][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Set default schema name to public
+[33m[2024-09-04 11:58:04.864][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Reading resource: liquibase/changelogs/24-01-changelog.yaml
+[33m[2024-09-04 11:58:04.936][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Reading from public.databasechangelog
+[33m[2024-09-04 11:58:04.973][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Database is up to date, no changesets to execute
+[33m[2024-09-04 11:58:04.975][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Reading from public.databasechangelog
+[33m[2024-09-04 11:58:04.981][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - UPDATE SUMMARY
+[33m[2024-09-04 11:58:04.981][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Run:                          0
+[33m[2024-09-04 11:58:04.981][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Previously run:              16
+[33m[2024-09-04 11:58:04.981][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Filtered out:                 0
+[33m[2024-09-04 11:58:04.981][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - -------------------------------
+[33m[2024-09-04 11:58:04.981][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Total change sets:           16
+[33m[2024-09-04 11:58:04.981][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Update summary generated
+[33m[2024-09-04 11:58:04.995][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Successfully released change log lock
+[33m[2024-09-04 11:58:04.996][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Command execution complete
+[33m[2024-09-04 11:58:05.080][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[33m[2024-09-04 11:58:05.114][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HHH000412: Hibernate ORM core version 6.5.2.Final
+[33m[2024-09-04 11:58:05.133][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HHH000026: Second-level cache disabled
+[33m[2024-09-04 11:58:05.284][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[33m[2024-09-04 11:58:05.837][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[33m[2024-09-04 11:58:05.839][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[33m[2024-09-04 11:58:06.099][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[33m[2024-09-04 11:58:06.536][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Exposing 16 endpoints beneath base path '/admin'
+[33m[2024-09-04 11:58:06.595][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Starting ProtocolHandler ["http-nio-8076"]
+[33m[2024-09-04 11:58:06.603][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Tomcat started on port 8076 (http) with context path '/api/sla'
+[33m[2024-09-04 11:58:06.628][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-createRecordListener-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = createRecordListener
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[33m[2024-09-04 11:58:06.656][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - initializing Kafka metrics collector
+[33m[2024-09-04 11:58:06.699][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Kafka version: 3.7.0
+[33m[2024-09-04 11:58:06.699][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Kafka commitId: 2ae524ed625438c5
+[33m[2024-09-04 11:58:06.699][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Kafka startTimeMs: 1725443886698
+[33m[2024-09-04 11:58:06.705][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Subscribed to topic(s): sla-record-create
+[33m[2024-09-04 11:58:06.709][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-updateRecordListener-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = updateRecordListener
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[33m[2024-09-04 11:58:06.710][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - initializing Kafka metrics collector
+[33m[2024-09-04 11:58:06.712][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Kafka version: 3.7.0
+[33m[2024-09-04 11:58:06.712][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Kafka commitId: 2ae524ed625438c5
+[33m[2024-09-04 11:58:06.712][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Kafka startTimeMs: 1725443886712
+[33m[2024-09-04 11:58:06.715][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Subscribed to topic(s): sla-record-update
+[33m[2024-09-04 11:58:06.724][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Started SlaApplication in 3.912 seconds (process running for 4.301)
+[33m[2024-09-04 11:58:06.934][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Cluster ID: X1i0ZosbTgC3LoelcTVnAw
+[33m[2024-09-04 11:58:06.934][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Cluster ID: X1i0ZosbTgC3LoelcTVnAw
+[33m[2024-09-04 11:58:06.969][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 11:58:06.979][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 11:58:06.981][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] (Re-)joining group
+[33m[2024-09-04 11:58:06.981][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] (Re-)joining group
+[33m[2024-09-04 11:58:07.010][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Request joining group due to: need to re-join with the given member-id: consumer-createRecordListener-1-225ed71c-4e5f-4c91-8a49-6090f5856043
+[33m[2024-09-04 11:58:07.010][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] (Re-)joining group
+[33m[2024-09-04 11:58:07.010][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Request joining group due to: need to re-join with the given member-id: consumer-updateRecordListener-2-4d88c7a8-a56b-45f7-b022-79b6999b332c
+[33m[2024-09-04 11:58:07.011][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] (Re-)joining group
+[33m[2024-09-04 11:58:07.019][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Successfully joined group with generation Generation{generationId=1, memberId='consumer-createRecordListener-1-225ed71c-4e5f-4c91-8a49-6090f5856043', protocol='range'}
+[33m[2024-09-04 11:58:07.020][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Successfully joined group with generation Generation{generationId=1, memberId='consumer-updateRecordListener-2-4d88c7a8-a56b-45f7-b022-79b6999b332c', protocol='range'}
+[33m[2024-09-04 11:58:07.023][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Finished assignment for group at generation 1: {consumer-createRecordListener-1-225ed71c-4e5f-4c91-8a49-6090f5856043=Assignment(partitions=[sla-record-create-0])}
+[33m[2024-09-04 11:58:07.023][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Finished assignment for group at generation 1: {consumer-updateRecordListener-2-4d88c7a8-a56b-45f7-b022-79b6999b332c=Assignment(partitions=[sla-record-update-0, sla-record-update-1, sla-record-update-2])}
+[33m[2024-09-04 11:58:07.038][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Successfully synced group in generation Generation{generationId=1, memberId='consumer-updateRecordListener-2-4d88c7a8-a56b-45f7-b022-79b6999b332c', protocol='range'}
+[33m[2024-09-04 11:58:07.038][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Successfully synced group in generation Generation{generationId=1, memberId='consumer-createRecordListener-1-225ed71c-4e5f-4c91-8a49-6090f5856043', protocol='range'}
+[33m[2024-09-04 11:58:07.039][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Notifying assignor about the new Assignment(partitions=[sla-record-update-0, sla-record-update-1, sla-record-update-2])
+[33m[2024-09-04 11:58:07.039][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Notifying assignor about the new Assignment(partitions=[sla-record-create-0])
+[33m[2024-09-04 11:58:07.040][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Adding newly assigned partitions: sla-record-create-0
+[33m[2024-09-04 11:58:07.040][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Adding newly assigned partitions: sla-record-update-0, sla-record-update-1, sla-record-update-2
+[33m[2024-09-04 11:58:07.045][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Found no committed offset for partition sla-record-create-0
+[33m[2024-09-04 11:58:07.045][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Found no committed offset for partition sla-record-update-0
+[33m[2024-09-04 11:58:07.045][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Found no committed offset for partition sla-record-update-1
+[33m[2024-09-04 11:58:07.045][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Found no committed offset for partition sla-record-update-2
+[33m[2024-09-04 11:58:07.047][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Found no committed offset for partition sla-record-create-0
+[33m[2024-09-04 11:58:07.047][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Found no committed offset for partition sla-record-update-0
+[33m[2024-09-04 11:58:07.047][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Found no committed offset for partition sla-record-update-1
+[33m[2024-09-04 11:58:07.047][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Found no committed offset for partition sla-record-update-2
+[33m[2024-09-04 11:58:07.056][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Resetting offset for partition sla-record-create-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[127.0.0.1:9092 (id: 0 rack: null)], epoch=0}}.
+[33m[2024-09-04 11:58:07.056][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Resetting offset for partition sla-record-update-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[127.0.0.1:9092 (id: 0 rack: null)], epoch=0}}.
+[33m[2024-09-04 11:58:07.056][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Resetting offset for partition sla-record-update-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[127.0.0.1:9092 (id: 0 rack: null)], epoch=0}}.
+[33m[2024-09-04 11:58:07.057][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Resetting offset for partition sla-record-update-2 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[127.0.0.1:9092 (id: 0 rack: null)], epoch=0}}.
+[33m[2024-09-04 11:58:07.067][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - createRecordListener: partitions assigned: [sla-record-create-0]
+[33m[2024-09-04 11:58:07.067][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - updateRecordListener: partitions assigned: [sla-record-update-0, sla-record-update-1, sla-record-update-2]
+[33m[2024-09-04 11:58:07.332][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[33m[2024-09-04 11:58:07.332][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Initializing Servlet 'dispatcherServlet'
+[33m[2024-09-04 11:58:07.333][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Completed initialization in 1 ms
+[33m[2024-09-04 12:02:10.551][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - MORE REQUEST INFO FIRST: ApplicationRequestDTO[name=Authorise, baseUrl=www.google.com]
+[33m[2024-09-04 12:02:17.094][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - SQL Error: 0, SQLState: 42703
+[33m[2024-09-04 12:02:17.094][0;39m [1;31mERROR[0;39m
+                [[36msla-service[0;39m, [1;31mtraceId[0;39m=[31mNONE[0;39m, [1;31mspanId[0;39m=NONE] - ERROR: column s1_0.contracts_run_concurrently does not exist
+  Position: 36
+[33m[2024-09-04 12:02:17.102][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: JDBC exception executing SQL [select s1_0.application_id,s1_0.id,s1_0.contracts_run_concurrently,s1_0.created_at,s1_0.extendedslatype,s1_0.is_deleted,s1_0.name,s1_0.number_of_contracts,s1_0.quota,s1_0.sla_type,s1_0.updated_at from sla s1_0 where s1_0.application_id=?] [ERROR: column s1_0.contracts_run_concurrently does not exist<EOL>  Position: 36] [n/a]]
+[33m[2024-09-04 12:04:53.352][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Revoke previously assigned partitions sla-record-create-0
+[33m[2024-09-04 12:04:53.352][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Revoke previously assigned partitions sla-record-update-0, sla-record-update-1, sla-record-update-2
+[33m[2024-09-04 12:04:53.352][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - updateRecordListener: partitions revoked: [sla-record-update-0, sla-record-update-1, sla-record-update-2]
+[33m[2024-09-04 12:04:53.352][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - createRecordListener: partitions revoked: [sla-record-create-0]
+[33m[2024-09-04 12:04:53.352][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Member consumer-updateRecordListener-2-4d88c7a8-a56b-45f7-b022-79b6999b332c sending LeaveGroup request to coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+[33m[2024-09-04 12:04:53.352][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Member consumer-createRecordListener-1-225ed71c-4e5f-4c91-8a49-6090f5856043 sending LeaveGroup request to coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+[33m[2024-09-04 12:04:53.353][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Resetting generation and member id due to: consumer pro-actively leaving the group
+[33m[2024-09-04 12:04:53.353][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Resetting generation and member id due to: consumer pro-actively leaving the group
+[33m[2024-09-04 12:04:53.353][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Request joining group due to: consumer pro-actively leaving the group
+[33m[2024-09-04 12:04:53.353][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Request joining group due to: consumer pro-actively leaving the group
+[33m[2024-09-04 12:04:53.353][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Unsubscribed all topics or patterns and assigned partitions
+[33m[2024-09-04 12:04:53.353][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Unsubscribed all topics or patterns and assigned partitions
+[33m[2024-09-04 12:04:53.355][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Resetting generation and member id due to: consumer pro-actively leaving the group
+[33m[2024-09-04 12:04:53.355][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Resetting generation and member id due to: consumer pro-actively leaving the group
+[33m[2024-09-04 12:04:53.355][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Request joining group due to: consumer pro-actively leaving the group
+[33m[2024-09-04 12:04:53.355][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Request joining group due to: consumer pro-actively leaving the group
+[33m[2024-09-04 12:04:53.705][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Metrics scheduler closed
+[33m[2024-09-04 12:04:53.705][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Metrics scheduler closed
+[33m[2024-09-04 12:04:53.705][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[33m[2024-09-04 12:04:53.705][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[33m[2024-09-04 12:04:53.705][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+[33m[2024-09-04 12:04:53.705][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Metrics reporters closed
+[33m[2024-09-04 12:04:53.705][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+[33m[2024-09-04 12:04:53.705][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Metrics reporters closed
+[33m[2024-09-04 12:04:53.709][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - App info kafka.consumer for consumer-updateRecordListener-2 unregistered
+[33m[2024-09-04 12:04:53.709][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - App info kafka.consumer for consumer-createRecordListener-1 unregistered
+[33m[2024-09-04 12:04:53.709][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - createRecordListener: Consumer stopped
+[33m[2024-09-04 12:04:53.709][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - updateRecordListener: Consumer stopped
+[33m[2024-09-04 12:04:53.720][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[33m[2024-09-04 12:04:53.723][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Shutdown initiated...
+[33m[2024-09-04 12:04:53.725][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Shutdown completed.
+[33m[2024-09-04 12:04:56.540][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Starting SlaApplication using Java 19.0.1 with PID 5979 (/Users/danaimunjemu/Downloads/sla-v3/target/classes started by danaimunjemu in /Users/danaimunjemu/Downloads/sla-v3)
+[33m[2024-09-04 12:04:56.541][0;39m [39mDEBUG[0;39m
+                [[36msla-service[0;39m, [39mtraceId[0;39m=[31mNONE[0;39m, [39mspanId[0;39m=NONE] - Running with Spring Boot v3.3.1, Spring v6.1.10
+[33m[2024-09-04 12:04:56.541][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - No active profile set, falling back to 1 default profile: "default"
+[33m[2024-09-04 12:04:57.087][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[33m[2024-09-04 12:04:57.121][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Finished Spring Data repository scanning in 29 ms. Found 6 JPA repository interfaces.
+[33m[2024-09-04 12:04:57.476][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Tomcat initialized with port 8076 (http)
+[33m[2024-09-04 12:04:57.482][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Initializing ProtocolHandler ["http-nio-8076"]
+[33m[2024-09-04 12:04:57.482][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Starting service [Tomcat]
+[33m[2024-09-04 12:04:57.482][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Starting Servlet engine: [Apache Tomcat/10.1.25]
+[33m[2024-09-04 12:04:57.510][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Initializing Spring embedded WebApplicationContext
+[33m[2024-09-04 12:04:57.510][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Root WebApplicationContext: initialization completed in 947 ms
+[33m[2024-09-04 12:04:57.603][0;39m [39mDEBUG[0;39m
+                [[36msla-service[0;39m, [39mtraceId[0;39m=[31mNONE[0;39m, [39mspanId[0;39m=NONE] - Filter 'corsFilterConfig' configured for use
+[33m[2024-09-04 12:04:57.650][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Starting...
+[33m[2024-09-04 12:04:57.757][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2d4e99de
+[33m[2024-09-04 12:04:57.758][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Start completed.
+[33m[2024-09-04 12:04:57.829][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Set default schema name to public
+[33m[2024-09-04 12:04:57.939][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Reading resource: liquibase/changelogs/04-01-changelog.yaml
+[33m[2024-09-04 12:04:57.982][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Creating database history table with name: public.databasechangelog
+[33m[2024-09-04 12:04:58.019][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Reading from public.databasechangelog
+[33m[2024-09-04 12:04:58.113][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Successfully acquired change log lock
+[33m[2024-09-04 12:04:58.114][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Using deploymentId: 5444298114
+[33m[2024-09-04 12:04:58.116][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Reading from public.databasechangelog
+[33m[2024-09-04 12:04:58.133][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Running Changeset: liquibase/changelogs/04-01-changelog.yaml::1725444282818-1::danaimunjemu (generated)
+[33m[2024-09-04 12:04:58.146][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Table agreement created
+[33m[2024-09-04 12:04:58.147][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ChangeSet liquibase/changelogs/04-01-changelog.yaml::1725444282818-1::danaimunjemu (generated) ran successfully in 14ms
+[33m[2024-09-04 12:04:58.153][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Running Changeset: liquibase/changelogs/04-01-changelog.yaml::1725444282818-2::danaimunjemu (generated)
+[33m[2024-09-04 12:04:58.164][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Table agreement_agreement_details created
+[33m[2024-09-04 12:04:58.164][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ChangeSet liquibase/changelogs/04-01-changelog.yaml::1725444282818-2::danaimunjemu (generated) ran successfully in 11ms
+[33m[2024-09-04 12:04:58.167][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Running Changeset: liquibase/changelogs/04-01-changelog.yaml::1725444282818-3::danaimunjemu (generated)
+[33m[2024-09-04 12:04:58.171][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Table application created
+[33m[2024-09-04 12:04:58.171][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ChangeSet liquibase/changelogs/04-01-changelog.yaml::1725444282818-3::danaimunjemu (generated) ran successfully in 4ms
+[33m[2024-09-04 12:04:58.173][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Running Changeset: liquibase/changelogs/04-01-changelog.yaml::1725444282818-4::danaimunjemu (generated)
+[33m[2024-09-04 12:04:58.182][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Table contract created
+[33m[2024-09-04 12:04:58.183][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ChangeSet liquibase/changelogs/04-01-changelog.yaml::1725444282818-4::danaimunjemu (generated) ran successfully in 10ms
+[33m[2024-09-04 12:04:58.186][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Running Changeset: liquibase/changelogs/04-01-changelog.yaml::1725444282818-5::danaimunjemu (generated)
+[33m[2024-09-04 12:04:58.190][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Table record created
+[33m[2024-09-04 12:04:58.192][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ChangeSet liquibase/changelogs/04-01-changelog.yaml::1725444282818-5::danaimunjemu (generated) ran successfully in 6ms
+[33m[2024-09-04 12:04:58.194][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Running Changeset: liquibase/changelogs/04-01-changelog.yaml::1725444282818-6::danaimunjemu (generated)
+[33m[2024-09-04 12:04:58.200][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Table reminder created
+[33m[2024-09-04 12:04:58.201][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ChangeSet liquibase/changelogs/04-01-changelog.yaml::1725444282818-6::danaimunjemu (generated) ran successfully in 7ms
+[33m[2024-09-04 12:04:58.203][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Running Changeset: liquibase/changelogs/04-01-changelog.yaml::1725444282818-7::danaimunjemu (generated)
+[33m[2024-09-04 12:04:58.219][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Table sla created
+[33m[2024-09-04 12:04:58.220][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ChangeSet liquibase/changelogs/04-01-changelog.yaml::1725444282818-7::danaimunjemu (generated) ran successfully in 17ms
+[33m[2024-09-04 12:04:58.223][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Running Changeset: liquibase/changelogs/04-01-changelog.yaml::1725444282818-8::danaimunjemu (generated)
+[33m[2024-09-04 12:04:58.227][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Table slaviolation created
+[33m[2024-09-04 12:04:58.228][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ChangeSet liquibase/changelogs/04-01-changelog.yaml::1725444282818-8::danaimunjemu (generated) ran successfully in 5ms
+[33m[2024-09-04 12:04:58.229][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Running Changeset: liquibase/changelogs/04-01-changelog.yaml::1725444282818-9::danaimunjemu (generated)
+[33m[2024-09-04 12:04:58.233][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Unique constraint added to record(reference_number)
+[33m[2024-09-04 12:04:58.236][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ChangeSet liquibase/changelogs/04-01-changelog.yaml::1725444282818-9::danaimunjemu (generated) ran successfully in 7ms
+[33m[2024-09-04 12:04:58.237][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Running Changeset: liquibase/changelogs/04-01-changelog.yaml::1725444282818-10::danaimunjemu (generated)
+[33m[2024-09-04 12:04:58.246][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Foreign key constraint added to agreement (sla_id)
+[33m[2024-09-04 12:04:58.247][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ChangeSet liquibase/changelogs/04-01-changelog.yaml::1725444282818-10::danaimunjemu (generated) ran successfully in 10ms
+[33m[2024-09-04 12:04:58.249][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Running Changeset: liquibase/changelogs/04-01-changelog.yaml::1725444282818-11::danaimunjemu (generated)
+[33m[2024-09-04 12:04:58.252][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Foreign key constraint added to contract (record_id)
+[33m[2024-09-04 12:04:58.252][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ChangeSet liquibase/changelogs/04-01-changelog.yaml::1725444282818-11::danaimunjemu (generated) ran successfully in 3ms
+[33m[2024-09-04 12:04:58.254][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Running Changeset: liquibase/changelogs/04-01-changelog.yaml::1725444282818-12::danaimunjemu (generated)
+[33m[2024-09-04 12:04:58.256][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Foreign key constraint added to record (agreement_id)
+[33m[2024-09-04 12:04:58.257][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ChangeSet liquibase/changelogs/04-01-changelog.yaml::1725444282818-12::danaimunjemu (generated) ran successfully in 2ms
+[33m[2024-09-04 12:04:58.259][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Running Changeset: liquibase/changelogs/04-01-changelog.yaml::1725444282818-13::danaimunjemu (generated)
+[33m[2024-09-04 12:04:58.261][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Foreign key constraint added to reminder (contract_id)
+[33m[2024-09-04 12:04:58.261][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ChangeSet liquibase/changelogs/04-01-changelog.yaml::1725444282818-13::danaimunjemu (generated) ran successfully in 2ms
+[33m[2024-09-04 12:04:58.262][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Running Changeset: liquibase/changelogs/04-01-changelog.yaml::1725444282818-14::danaimunjemu (generated)
+[33m[2024-09-04 12:04:58.265][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Foreign key constraint added to slaviolation (contract_id)
+[33m[2024-09-04 12:04:58.266][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ChangeSet liquibase/changelogs/04-01-changelog.yaml::1725444282818-14::danaimunjemu (generated) ran successfully in 4ms
+[33m[2024-09-04 12:04:58.273][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Running Changeset: liquibase/changelogs/04-01-changelog.yaml::1725444282818-15::danaimunjemu (generated)
+[33m[2024-09-04 12:04:58.277][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Foreign key constraint added to sla (application_id)
+[33m[2024-09-04 12:04:58.278][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ChangeSet liquibase/changelogs/04-01-changelog.yaml::1725444282818-15::danaimunjemu (generated) ran successfully in 5ms
+[33m[2024-09-04 12:04:58.279][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Running Changeset: liquibase/changelogs/04-01-changelog.yaml::1725444282818-16::danaimunjemu (generated)
+[33m[2024-09-04 12:04:58.281][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Foreign key constraint added to agreement_agreement_details (agreement_id)
+[33m[2024-09-04 12:04:58.281][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ChangeSet liquibase/changelogs/04-01-changelog.yaml::1725444282818-16::danaimunjemu (generated) ran successfully in 2ms
+[33m[2024-09-04 12:04:58.286][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - UPDATE SUMMARY
+[33m[2024-09-04 12:04:58.286][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Run:                         16
+[33m[2024-09-04 12:04:58.286][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Previously run:               0
+[33m[2024-09-04 12:04:58.286][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Filtered out:                 0
+[33m[2024-09-04 12:04:58.286][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - -------------------------------
+[33m[2024-09-04 12:04:58.286][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Total change sets:           16
+[33m[2024-09-04 12:04:58.286][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Update summary generated
+[33m[2024-09-04 12:04:58.287][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Update command completed successfully.
+[33m[2024-09-04 12:04:58.287][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Liquibase: Update has been successful. Rows affected: 16
+[33m[2024-09-04 12:04:58.289][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Successfully released change log lock
+[33m[2024-09-04 12:04:58.290][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Command execution complete
+[33m[2024-09-04 12:04:58.342][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[33m[2024-09-04 12:04:58.370][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HHH000412: Hibernate ORM core version 6.5.2.Final
+[33m[2024-09-04 12:04:58.384][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HHH000026: Second-level cache disabled
+[33m[2024-09-04 12:04:58.522][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[33m[2024-09-04 12:04:59.046][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[33m[2024-09-04 12:04:59.047][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[33m[2024-09-04 12:04:59.293][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[33m[2024-09-04 12:04:59.735][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Exposing 16 endpoints beneath base path '/admin'
+[33m[2024-09-04 12:04:59.795][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Starting ProtocolHandler ["http-nio-8076"]
+[33m[2024-09-04 12:04:59.802][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Tomcat started on port 8076 (http) with context path '/api/sla'
+[33m[2024-09-04 12:04:59.824][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-createRecordListener-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = createRecordListener
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[33m[2024-09-04 12:04:59.850][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - initializing Kafka metrics collector
+[33m[2024-09-04 12:04:59.888][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Kafka version: 3.7.0
+[33m[2024-09-04 12:04:59.888][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Kafka commitId: 2ae524ed625438c5
+[33m[2024-09-04 12:04:59.888][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Kafka startTimeMs: 1725444299887
+[33m[2024-09-04 12:04:59.894][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Subscribed to topic(s): sla-record-create
+[33m[2024-09-04 12:04:59.898][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-updateRecordListener-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = updateRecordListener
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[33m[2024-09-04 12:04:59.898][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - initializing Kafka metrics collector
+[33m[2024-09-04 12:04:59.901][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Kafka version: 3.7.0
+[33m[2024-09-04 12:04:59.901][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Kafka commitId: 2ae524ed625438c5
+[33m[2024-09-04 12:04:59.901][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Kafka startTimeMs: 1725444299901
+[33m[2024-09-04 12:04:59.904][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Subscribed to topic(s): sla-record-update
+[33m[2024-09-04 12:04:59.914][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Started SlaApplication in 3.558 seconds (process running for 3.999)
+[33m[2024-09-04 12:05:00.069][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Cluster ID: X1i0ZosbTgC3LoelcTVnAw
+[33m[2024-09-04 12:05:00.070][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 12:05:00.070][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Cluster ID: X1i0ZosbTgC3LoelcTVnAw
+[33m[2024-09-04 12:05:00.070][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 12:05:00.071][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] (Re-)joining group
+[33m[2024-09-04 12:05:00.071][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] (Re-)joining group
+[33m[2024-09-04 12:05:00.079][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Request joining group due to: need to re-join with the given member-id: consumer-createRecordListener-1-c49e130a-b8a6-4a91-971e-1a29293441ce
+[33m[2024-09-04 12:05:00.079][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Request joining group due to: need to re-join with the given member-id: consumer-updateRecordListener-2-5a162478-cc29-41ad-9fef-964139f2dff1
+[33m[2024-09-04 12:05:00.079][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] (Re-)joining group
+[33m[2024-09-04 12:05:00.079][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] (Re-)joining group
+[33m[2024-09-04 12:05:00.081][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Successfully joined group with generation Generation{generationId=3, memberId='consumer-updateRecordListener-2-5a162478-cc29-41ad-9fef-964139f2dff1', protocol='range'}
+[33m[2024-09-04 12:05:00.082][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Successfully joined group with generation Generation{generationId=3, memberId='consumer-createRecordListener-1-c49e130a-b8a6-4a91-971e-1a29293441ce', protocol='range'}
+[33m[2024-09-04 12:05:00.085][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Finished assignment for group at generation 3: {consumer-updateRecordListener-2-5a162478-cc29-41ad-9fef-964139f2dff1=Assignment(partitions=[sla-record-update-0, sla-record-update-1, sla-record-update-2])}
+[33m[2024-09-04 12:05:00.085][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Finished assignment for group at generation 3: {consumer-createRecordListener-1-c49e130a-b8a6-4a91-971e-1a29293441ce=Assignment(partitions=[sla-record-create-0])}
+[33m[2024-09-04 12:05:00.089][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Successfully synced group in generation Generation{generationId=3, memberId='consumer-createRecordListener-1-c49e130a-b8a6-4a91-971e-1a29293441ce', protocol='range'}
+[33m[2024-09-04 12:05:00.089][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Successfully synced group in generation Generation{generationId=3, memberId='consumer-updateRecordListener-2-5a162478-cc29-41ad-9fef-964139f2dff1', protocol='range'}
+[33m[2024-09-04 12:05:00.090][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Notifying assignor about the new Assignment(partitions=[sla-record-create-0])
+[33m[2024-09-04 12:05:00.090][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Notifying assignor about the new Assignment(partitions=[sla-record-update-0, sla-record-update-1, sla-record-update-2])
+[33m[2024-09-04 12:05:00.091][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Adding newly assigned partitions: sla-record-create-0
+[33m[2024-09-04 12:05:00.091][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Adding newly assigned partitions: sla-record-update-0, sla-record-update-1, sla-record-update-2
+[33m[2024-09-04 12:05:00.095][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Setting offset for partition sla-record-update-2 to the committed offset FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[127.0.0.1:9092 (id: 0 rack: null)], epoch=0}}
+[33m[2024-09-04 12:05:00.095][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Setting offset for partition sla-record-create-0 to the committed offset FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[127.0.0.1:9092 (id: 0 rack: null)], epoch=0}}
+[33m[2024-09-04 12:05:00.095][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Setting offset for partition sla-record-update-0 to the committed offset FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[127.0.0.1:9092 (id: 0 rack: null)], epoch=0}}
+[33m[2024-09-04 12:05:00.095][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Setting offset for partition sla-record-update-1 to the committed offset FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[127.0.0.1:9092 (id: 0 rack: null)], epoch=0}}
+[33m[2024-09-04 12:05:00.096][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - updateRecordListener: partitions assigned: [sla-record-update-0, sla-record-update-1, sla-record-update-2]
+[33m[2024-09-04 12:05:00.096][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - createRecordListener: partitions assigned: [sla-record-create-0]
+[33m[2024-09-04 12:05:00.214][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[33m[2024-09-04 12:05:00.215][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Initializing Servlet 'dispatcherServlet'
+[33m[2024-09-04 12:05:00.215][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Completed initialization in 0 ms
+[33m[2024-09-04 12:05:12.848][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - MORE REQUEST INFO FIRST: ApplicationRequestDTO[name=Authorise, baseUrl=www.google.com]
+[33m[2024-09-04 12:14:00.160][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Node -1 disconnected.
+[33m[2024-09-04 12:14:00.162][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Node -1 disconnected.
+[33m[2024-09-04 12:24:00.168][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Node -1 disconnected.
+[33m[2024-09-04 12:24:00.213][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Node -1 disconnected.
+[33m[2024-09-04 14:16:20.683][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 14:16:20.683][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 14:16:20.685][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:16:20.685][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:16:20.689][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-04 14:16:20.689][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-04 14:16:20.699][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:16:20.700][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:16:20.700][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 14:16:20.700][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:16:20.709][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:16:20.709][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 14:16:20.709][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:16:20.806][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:16:20.823][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:16:24.423][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m25s215ms).
+[33m[2024-09-04 14:21:47.700][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 14:21:47.700][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 14:21:47.701][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:21:47.705][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:21:47.707][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-04 14:21:47.707][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-04 14:21:47.729][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:21:47.729][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:21:47.729][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 14:21:47.729][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 14:21:47.729][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:21:47.729][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:21:47.851][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:21:47.863][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:22:17.021][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m21s16ms).
+[33m[2024-09-04 14:29:17.941][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 14:29:17.941][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 14:29:17.942][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:29:17.942][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:29:17.942][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-04 14:29:17.943][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-04 14:29:17.952][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:29:17.952][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:29:17.952][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 14:29:17.952][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 14:29:17.952][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:29:17.952][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:29:18.069][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:29:18.069][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:29:42.560][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m55s499ms).
+[33m[2024-09-04 14:33:52.648][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 14:33:52.648][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 14:33:52.648][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:33:52.648][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:33:52.648][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-04 14:33:52.648][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-04 14:33:52.654][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:33:52.654][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 14:33:52.654][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:33:52.654][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:33:52.654][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 14:33:52.654][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:33:52.754][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:33:52.754][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 14:34:00.113][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m17s554ms).
+[33m[2024-09-04 18:02:59.226][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 18:02:59.226][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 18:02:59.237][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:02:59.238][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:02:59.240][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-04 18:02:59.240][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-04 18:02:59.261][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:02:59.261][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:02:59.261][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 18:02:59.261][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 18:02:59.261][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:02:59.261][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:02:59.369][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:02:59.381][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:03:40.929][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m37s958ms).
+[33m[2024-09-04 18:04:29.822][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 18:04:29.822][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 18:04:29.822][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:04:29.822][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:04:29.822][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-04 18:04:29.822][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-04 18:04:29.939][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:04:29.939][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:04:57.418][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m16s489ms).
+[33m[2024-09-04 18:23:08.849][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 18:23:08.849][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 18:23:08.850][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:23:08.850][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:23:08.850][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-04 18:23:08.850][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-04 18:23:08.860][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:23:08.860][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 18:23:08.860][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:23:08.860][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:23:08.861][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 18:23:08.861][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:23:08.955][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:23:08.959][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 18:23:10.578][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m13s161ms).
+[33m[2024-09-04 19:46:41.583][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Disconnecting from node 0 due to request timeout.
+[33m[2024-09-04 19:46:41.593][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Disconnecting from node 0 due to request timeout.
+[33m[2024-09-04 19:46:41.633][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Cancelled in-flight FETCH request with correlation id 48095 due to node 0 being disconnected (elapsed time since creation: 5007906ms, elapsed time since send: 5007906ms, request timeout: 30000ms)
+[33m[2024-09-04 19:46:41.637][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Cancelled in-flight FETCH request with correlation id 48096 due to node 0 being disconnected (elapsed time since creation: 5007906ms, elapsed time since send: 5007906ms, request timeout: 30000ms)
+[33m[2024-09-04 19:46:41.981][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 19:46:41.981][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-04 19:46:41.981][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 19:46:41.981][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 19:46:41.982][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-04 19:46:41.982][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-04 19:46:41.997][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Error sending fetch request (sessionId=2004683657, epoch=41009) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+[33m[2024-09-04 19:46:41.993][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Error sending fetch request (sessionId=2128222212, epoch=41009) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+[33m[2024-09-04 19:46:42.253][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 19:46:42.253][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 19:46:42.253][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 19:46:42.253][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-04 19:47:08.098][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m57s519ms).
+[33m[2024-09-04 19:56:07.953][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s769ms), soft-evicting connections from pool.
+[33m[2024-09-04 20:23:25.793][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Revoke previously assigned partitions sla-record-create-0
+[33m[2024-09-04 20:23:25.793][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Revoke previously assigned partitions sla-record-update-0, sla-record-update-1, sla-record-update-2
+[33m[2024-09-04 20:23:25.808][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - updateRecordListener: partitions revoked: [sla-record-update-0, sla-record-update-1, sla-record-update-2]
+[33m[2024-09-04 20:23:25.808][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - createRecordListener: partitions revoked: [sla-record-create-0]
+[33m[2024-09-04 20:23:25.811][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Member consumer-updateRecordListener-2-5a162478-cc29-41ad-9fef-964139f2dff1 sending LeaveGroup request to coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+[33m[2024-09-04 20:23:25.811][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Member consumer-createRecordListener-1-c49e130a-b8a6-4a91-971e-1a29293441ce sending LeaveGroup request to coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+[33m[2024-09-04 20:23:25.815][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Resetting generation and member id due to: consumer pro-actively leaving the group
+[33m[2024-09-04 20:23:25.815][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Resetting generation and member id due to: consumer pro-actively leaving the group
+[33m[2024-09-04 20:23:25.815][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Request joining group due to: consumer pro-actively leaving the group
+[33m[2024-09-04 20:23:25.815][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Request joining group due to: consumer pro-actively leaving the group
+[33m[2024-09-04 20:23:25.816][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Unsubscribed all topics or patterns and assigned partitions
+[33m[2024-09-04 20:23:25.816][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Unsubscribed all topics or patterns and assigned partitions
+[33m[2024-09-04 20:23:25.833][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Resetting generation and member id due to: consumer pro-actively leaving the group
+[33m[2024-09-04 20:23:25.833][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Resetting generation and member id due to: consumer pro-actively leaving the group
+[33m[2024-09-04 20:23:25.833][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Request joining group due to: consumer pro-actively leaving the group
+[33m[2024-09-04 20:23:25.833][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Request joining group due to: consumer pro-actively leaving the group
+[33m[2024-09-04 20:23:26.233][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Metrics scheduler closed
+[33m[2024-09-04 20:23:26.233][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Metrics scheduler closed
+[33m[2024-09-04 20:23:26.233][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[33m[2024-09-04 20:23:26.233][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[33m[2024-09-04 20:23:26.234][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+[33m[2024-09-04 20:23:26.234][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Metrics reporters closed
+[33m[2024-09-04 20:23:26.234][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+[33m[2024-09-04 20:23:26.234][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Metrics reporters closed
+[33m[2024-09-04 20:23:26.261][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - App info kafka.consumer for consumer-createRecordListener-1 unregistered
+[33m[2024-09-04 20:23:26.262][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - App info kafka.consumer for consumer-updateRecordListener-2 unregistered
+[33m[2024-09-04 20:23:26.263][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - createRecordListener: Consumer stopped
+[33m[2024-09-04 20:23:26.263][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - updateRecordListener: Consumer stopped
+[33m[2024-09-04 20:23:26.320][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[33m[2024-09-04 20:23:26.346][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Shutdown initiated...
+[33m[2024-09-04 20:23:26.351][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Shutdown completed.

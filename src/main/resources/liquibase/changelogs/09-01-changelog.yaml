@@ -1,0 +1,422 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1725867719907-1
+      author: danaimunjemu (generated)
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_agreement
+                  name: id
+                  type: VARCHAR(255)
+              - column:
+                  name: name
+                  type: VARCHAR(255)
+              - column:
+                  name: owner
+                  type: VARCHAR(255)
+              - column:
+                  name: description
+                  type: VARCHAR(255)
+              - column:
+                  name: cyclic_user
+                  type: VARCHAR(255)
+              - column:
+                  name: has_reminder
+                  type: BOOLEAN
+              - column:
+                  name: reminder_time
+                  type: INT
+              - column:
+                  name: is_deleted
+                  type: BOOLEAN
+              - column:
+                  name: created_at
+                  type: DATETIME
+              - column:
+                  name: updated_at
+                  type: DATETIME
+              - column:
+                  name: sla_id
+                  type: VARCHAR(255)
+            tableName: agreement
+  - changeSet:
+      id: 1725867719907-2
+      author: danaimunjemu (generated)
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  autoIncrement: true
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_agreementdetails
+                  name: id
+                  type: BIGINT
+              - column:
+                  name: assigned_user
+                  type: VARCHAR(255)
+              - column:
+                  name: escalation_user
+                  type: VARCHAR(255)
+              - column:
+                  name: verification_user
+                  type: VARCHAR(255)
+              - column:
+                  name: time
+                  type: INT
+              - column:
+                  name: index
+                  type: INT
+              - column:
+                  name: role
+                  type: SMALLINT
+              - column:
+                  name: escalation_type
+                  type: VARCHAR(255)
+              - column:
+                  name: agreement_id
+                  type: VARCHAR(255)
+              - column:
+                  name: created_at
+                  type: DATETIME
+              - column:
+                  name: updated_at
+                  type: DATETIME
+            tableName: agreement_details
+  - changeSet:
+      id: 1725867719907-3
+      author: danaimunjemu (generated)
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_application
+                  name: id
+                  type: VARCHAR(255)
+              - column:
+                  name: name
+                  type: VARCHAR(255)
+              - column:
+                  name: base_url
+                  type: VARCHAR(255)
+              - column:
+                  name: is_deleted
+                  type: BOOLEAN
+              - column:
+                  name: created_at
+                  type: DATETIME
+              - column:
+                  name: updated_at
+                  type: DATETIME
+            tableName: application
+  - changeSet:
+      id: 1725867719907-4
+      author: danaimunjemu (generated)
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_contract
+                  name: id
+                  type: VARCHAR(255)
+              - column:
+                  name: completion_deadline
+                  type: DATETIME
+              - column:
+                  name: completion_time
+                  type: DATETIME
+              - column:
+                  name: role
+                  type: VARCHAR(255)
+              - column:
+                  name: assigned_user
+                  type: VARCHAR(255)
+              - column:
+                  name: escalation_user
+                  type: VARCHAR(255)
+              - column:
+                  name: duration
+                  type: INT
+              - column:
+                  name: escalation_trial_count
+                  type: INT
+              - column:
+                  name: escalation_time
+                  type: DATETIME
+              - column:
+                  name: has_escalated
+                  type: BOOLEAN
+              - column:
+                  name: status
+                  type: INT
+              - column:
+                  name: escalation_type
+                  type: VARCHAR(255)
+              - column:
+                  name: is_deleted
+                  type: BOOLEAN
+              - column:
+                  name: index
+                  type: INT
+              - column:
+                  name: record_id
+                  type: VARCHAR(255)
+              - column:
+                  name: created_at
+                  type: DATETIME
+              - column:
+                  name: updated_at
+                  type: DATETIME
+            tableName: contract
+  - changeSet:
+      id: 1725867719907-5
+      author: danaimunjemu (generated)
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_record
+                  name: id
+                  type: VARCHAR(255)
+              - column:
+                  name: reference_number
+                  type: VARCHAR(255)
+              - column:
+                  name: sla_code
+                  type: VARCHAR(255)
+              - column:
+                  name: duration
+                  type: INT
+              - column:
+                  name: completion_deadline
+                  type: DATETIME
+              - column:
+                  name: completion_time
+                  type: DATETIME
+              - column:
+                  name: status
+                  type: VARCHAR(255)
+              - column:
+                  name: created_by
+                  type: VARCHAR(255)
+              - column:
+                  name: is_deleted
+                  type: BOOLEAN
+              - column:
+                  name: agreement_id
+                  type: VARCHAR(255)
+              - column:
+                  name: created_at
+                  type: DATETIME
+              - column:
+                  name: updated_at
+                  type: DATETIME
+            tableName: record
+  - changeSet:
+      id: 1725867719907-6
+      author: danaimunjemu (generated)
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_reminder
+                  name: id
+                  type: VARCHAR(255)
+              - column:
+                  name: message
+                  type: VARCHAR(255)
+              - column:
+                  name: reminder_time
+                  type: DATETIME
+              - column:
+                  name: is_sent
+                  type: BOOLEAN
+              - column:
+                  name: contract_id
+                  type: VARCHAR(255)
+              - column:
+                  name: created_at
+                  type: DATETIME
+              - column:
+                  name: updated_at
+                  type: DATETIME
+            tableName: reminder
+  - changeSet:
+      id: 1725867719907-7
+      author: danaimunjemu (generated)
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_sla
+                  name: id
+                  type: VARCHAR(255)
+              - column:
+                  name: name
+                  type: VARCHAR(255)
+              - column:
+                  name: sla_type
+                  type: VARCHAR(255)
+              - column:
+                  name: extendedslatype
+                  type: VARCHAR(255)
+              - column:
+                  name: number_of_contracts
+                  type: INT
+              - column:
+                  name: contracts_run_concurrently
+                  type: BOOLEAN
+              - column:
+                  name: quota
+                  type: INT
+              - column:
+                  name: is_deleted
+                  type: BOOLEAN
+              - column:
+                  name: created_at
+                  type: DATETIME
+              - column:
+                  name: updated_at
+                  type: DATETIME
+              - column:
+                  name: application_id
+                  type: VARCHAR(255)
+            tableName: sla
+  - changeSet:
+      id: 1725867719907-8
+      author: danaimunjemu (generated)
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: pk_slaviolation
+                  name: id
+                  type: VARCHAR(255)
+              - column:
+                  name: created_at
+                  type: DATETIME
+              - column:
+                  name: updated_at
+                  type: DATETIME
+              - column:
+                  name: contract_id
+                  type: VARCHAR(255)
+            tableName: slaviolation
+  - changeSet:
+      id: 1725867719907-9
+      author: danaimunjemu (generated)
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addUniqueConstraint:
+            columnNames: reference_number
+            constraintName: uc_record_referencenumber
+            tableName: record
+  - changeSet:
+      id: 1725867719907-10
+      author: danaimunjemu (generated)
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: agreement_id
+            baseTableName: agreement_details
+            constraintName: FK_AGREEMENTDETAILS_ON_AGREEMENT
+            referencedColumnNames: id
+            referencedTableName: agreement
+  - changeSet:
+      id: 1725867719907-11
+      author: danaimunjemu (generated)
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: sla_id
+            baseTableName: agreement
+            constraintName: FK_AGREEMENT_ON_SLA
+            referencedColumnNames: id
+            referencedTableName: sla
+  - changeSet:
+      id: 1725867719907-12
+      author: danaimunjemu (generated)
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: record_id
+            baseTableName: contract
+            constraintName: FK_CONTRACT_ON_RECORD
+            referencedColumnNames: id
+            referencedTableName: record
+  - changeSet:
+      id: 1725867719907-13
+      author: danaimunjemu (generated)
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: agreement_id
+            baseTableName: record
+            constraintName: FK_RECORD_ON_AGREEMENT
+            referencedColumnNames: id
+            referencedTableName: agreement
+  - changeSet:
+      id: 1725867719907-14
+      author: danaimunjemu (generated)
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: contract_id
+            baseTableName: reminder
+            constraintName: FK_REMINDER_ON_CONTRACT
+            referencedColumnNames: id
+            referencedTableName: contract
+  - changeSet:
+      id: 1725867719907-15
+      author: danaimunjemu (generated)
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: contract_id
+            baseTableName: slaviolation
+            constraintName: FK_SLAVIOLATION_ON_CONTRACT
+            referencedColumnNames: id
+            referencedTableName: contract
+  - changeSet:
+      id: 1725867719907-16
+      author: danaimunjemu (generated)
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addForeignKeyConstraint:
+            baseColumnNames: application_id
+            baseTableName: sla
+            constraintName: FK_SLA_ON_APPLICATION
+            referencedColumnNames: id
+            referencedTableName: application
+

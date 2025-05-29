@@ -1,0 +1,18 @@
+[33m[2024-07-09 03:06:16.605][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m16s898ms).
+[33m[2024-07-09 05:25:22.195][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h33m34s756ms).
+[33m[2024-07-09 05:53:03.300][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m41s310ms).
+[33m[2024-07-09 07:54:51.306][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h1m17s996ms).
+[33m[2024-07-09 08:09:57.556][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m6s165ms).
+[33m[2024-07-09 09:00:33.365][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m5s91ms).
+[33m[2024-07-09 09:20:58.447][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[33m[2024-07-09 09:20:58.535][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Shutdown initiated...
+[33m[2024-07-09 09:20:58.551][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Shutdown completed.

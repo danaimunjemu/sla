@@ -1,0 +1,118 @@
+[33m[2024-07-09 09:21:16.647][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Starting SlaApplication using Java 19.0.1 with PID 9043 (/Users/danaimunjemu/Downloads/sla-v3/target/classes started by danaimunjemu in /Users/danaimunjemu/Downloads/sla-v3)
+[33m[2024-07-09 09:21:16.647][0;39m [39mDEBUG[0;39m
+                [[36msla-service[0;39m, [39mtraceId[0;39m=[31mNONE[0;39m, [39mspanId[0;39m=NONE] - Running with Spring Boot v3.3.1, Spring v6.1.10
+[33m[2024-07-09 09:21:16.648][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - No active profile set, falling back to 1 default profile: "default"
+[33m[2024-07-09 09:21:17.123][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[33m[2024-07-09 09:21:17.148][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Finished Spring Data repository scanning in 22 ms. Found 3 JPA repository interfaces.
+[33m[2024-07-09 09:21:17.536][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Tomcat initialized with port 8076 (http)
+[33m[2024-07-09 09:21:17.542][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Initializing ProtocolHandler ["http-nio-8076"]
+[33m[2024-07-09 09:21:17.542][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Starting service [Tomcat]
+[33m[2024-07-09 09:21:17.542][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Starting Servlet engine: [Apache Tomcat/10.1.25]
+[33m[2024-07-09 09:21:17.567][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Initializing Spring embedded WebApplicationContext
+[33m[2024-07-09 09:21:17.567][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Root WebApplicationContext: initialization completed in 898 ms
+[33m[2024-07-09 09:21:17.680][0;39m [39mDEBUG[0;39m
+                [[36msla-service[0;39m, [39mtraceId[0;39m=[31mNONE[0;39m, [39mspanId[0;39m=NONE] - Filter 'corsFilterConfig' configured for use
+[33m[2024-07-09 09:21:17.731][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Starting...
+[33m[2024-07-09 09:21:17.855][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65d7eea4
+[33m[2024-07-09 09:21:17.855][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Start completed.
+[33m[2024-07-09 09:21:17.978][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Set default schema name to public
+[33m[2024-07-09 09:21:18.100][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Reading resource: liquibase/changelogs/08-01-changelog.yaml
+[33m[2024-07-09 09:21:18.248][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Reading from public.databasechangelog
+[33m[2024-07-09 09:21:18.291][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Database is up to date, no changesets to execute
+[33m[2024-07-09 09:21:18.292][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Reading from public.databasechangelog
+[33m[2024-07-09 09:21:18.296][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - UPDATE SUMMARY
+[33m[2024-07-09 09:21:18.296][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Run:                          0
+[33m[2024-07-09 09:21:18.296][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Previously run:              12
+[33m[2024-07-09 09:21:18.296][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Filtered out:                 0
+[33m[2024-07-09 09:21:18.296][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - -------------------------------
+[33m[2024-07-09 09:21:18.296][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Total change sets:           12
+[33m[2024-07-09 09:21:18.297][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Update summary generated
+[33m[2024-07-09 09:21:18.311][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Successfully released change log lock
+[33m[2024-07-09 09:21:18.316][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Command execution complete
+[33m[2024-07-09 09:21:18.401][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[33m[2024-07-09 09:21:18.435][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HHH000412: Hibernate ORM core version 6.5.2.Final
+[33m[2024-07-09 09:21:18.452][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HHH000026: Second-level cache disabled
+[33m[2024-07-09 09:21:18.587][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[33m[2024-07-09 09:21:18.720][0;39m [1;31mERROR[0;39m
+                [[36msla-service[0;39m, [1;31mtraceId[0;39m=[31mNONE[0;39m, [1;31mspanId[0;39m=NONE] - Failed to initialize JPA EntityManagerFactory: Collection 'zw.co.afc.orbit.sla.model.Application.slas' is 'mappedBy' a property named 'service' which does not exist in the target entity 'zw.co.afc.orbit.sla.model.SLA'
+[33m[2024-07-09 09:21:18.721][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'zw.co.afc.orbit.sla.model.Application.slas' is 'mappedBy' a property named 'service' which does not exist in the target entity 'zw.co.afc.orbit.sla.model.SLA'
+[33m[2024-07-09 09:21:18.721][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Shutdown initiated...
+[33m[2024-07-09 09:21:18.723][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Shutdown completed.
+[33m[2024-07-09 09:21:18.724][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Stopping service [Tomcat]
+[33m[2024-07-09 09:21:18.734][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[33m[2024-07-09 09:21:18.742][0;39m [1;31mERROR[0;39m
+                [[36msla-service[0;39m, [1;31mtraceId[0;39m=[31mNONE[0;39m, [1;31mspanId[0;39m=NONE] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'zw.co.afc.orbit.sla.model.Application.slas' is 'mappedBy' a property named 'service' which does not exist in the target entity 'zw.co.afc.orbit.sla.model.SLA'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at zw.co.afc.orbit.sla.SlaApplication.main(SlaApplication.java:10)
+Caused by: org.hibernate.AnnotationException: Collection 'zw.co.afc.orbit.sla.model.Application.slas' is 'mappedBy' a property named 'service' which does not exist in the target entity 'zw.co.afc.orbit.sla.model.SLA'
+	at org.hibernate.boot.model.internal.CollectionBinder.isReversePropertyInJoin(CollectionBinder.java:1639)
+	at org.hibernate.boot.model.internal.CollectionBinder.noAssociationTable(CollectionBinder.java:1653)
+	at org.hibernate.boot.model.internal.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:1614)
+	at org.hibernate.boot.model.internal.CollectionBinder$1.secondPass(CollectionBinder.java:1605)
+	at org.hibernate.boot.model.internal.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1811)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1770)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:334)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 15 common frames omitted

@@ -1,0 +1,389 @@
+[33m[2024-07-20 01:01:29.167][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 01:01:29.365][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 01:01:29.375][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 01:01:30.568][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 01:01:31.407][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h33m56s641ms).
+[33m[2024-07-20 01:26:56.375][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 01:26:56.375][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 01:26:56.375][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 01:26:56.390][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 01:26:56.390][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 01:26:56.390][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 01:26:56.514][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 02:27:57.124][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 02:27:57.125][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 02:27:57.125][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 02:27:57.155][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 02:27:57.155][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 02:27:57.155][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 02:27:57.245][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 02:28:11.292][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h26m9s874ms).
+[33m[2024-07-20 03:28:58.175][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 03:28:58.175][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 03:28:58.175][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 03:28:58.203][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 03:28:58.203][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 03:28:58.204][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 03:28:58.325][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 04:29:59.181][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 04:29:59.185][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 04:29:59.185][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 04:29:59.204][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 04:29:59.205][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 04:29:59.205][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 04:29:59.307][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 04:35:54.485][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 04:35:54.486][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 04:35:54.486][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 04:35:54.526][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 04:35:54.526][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 04:35:54.526][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 04:35:54.634][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 04:35:59.901][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h7m48s611ms).
+[33m[2024-07-20 06:16:14.200][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 06:16:14.221][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 06:16:14.222][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 06:16:14.299][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 06:16:38.587][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m25s468ms).
+[33m[2024-07-20 07:49:46.547][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 07:49:46.548][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 07:49:46.548][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 07:49:46.564][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 07:49:46.564][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 07:49:46.564][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 07:49:46.648][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 07:49:57.297][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h32m48s698ms).
+[33m[2024-07-20 08:10:15.313][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Disconnecting from node 0 due to request timeout.
+[33m[2024-07-20 08:10:15.316][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Cancelled in-flight FETCH request with correlation id 352874 due to node 0 being disconnected (elapsed time since creation: 974139ms, elapsed time since send: 974139ms, request timeout: 30000ms)
+[33m[2024-07-20 08:10:15.317][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 08:10:15.317][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 08:10:15.317][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 08:10:15.319][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Error sending fetch request (sessionId=1901381140, epoch=14379) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+[33m[2024-07-20 08:10:15.457][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 08:10:41.029][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m43s665ms).
+[33m[2024-07-20 08:54:41.232][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s781ms), soft-evicting connections from pool.
+[33m[2024-07-20 11:03:14.751][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 11:03:14.755][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 11:03:14.757][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 11:03:14.785][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 11:03:14.787][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 11:03:14.787][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 11:03:14.907][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 11:19:10.730][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m28s270ms).
+[33m[2024-07-20 11:19:10.955][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 11:19:10.955][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 11:19:10.955][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 11:19:10.956][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 11:19:10.956][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 11:19:10.956][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 11:19:11.052][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 11:36:41.609][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Disconnecting from node 0 due to request timeout.
+[33m[2024-07-20 11:36:41.720][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Cancelled in-flight FETCH request with correlation id 374702 due to node 0 being disconnected (elapsed time since creation: 1046010ms, elapsed time since send: 1046010ms, request timeout: 30000ms)
+[33m[2024-07-20 11:36:41.720][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 11:36:41.720][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 11:36:41.720][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 11:36:41.721][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Error sending fetch request (sessionId=1961759932, epoch=18611) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+[33m[2024-07-20 11:36:41.725][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 11:36:41.725][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 11:36:41.725][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 11:36:41.810][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 11:54:11.928][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 11:54:11.928][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 11:54:11.928][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 11:54:11.937][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 11:54:11.937][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 11:54:11.937][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 11:54:12.035][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 12:11:39.570][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Disconnecting from node 0 due to request timeout.
+[33m[2024-07-20 12:11:39.570][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Cancelled in-flight FETCH request with correlation id 374738 due to node 0 being disconnected (elapsed time since creation: 1042999ms, elapsed time since send: 1042999ms, request timeout: 30000ms)
+[33m[2024-07-20 12:11:39.571][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Error sending fetch request (sessionId=1192740160, epoch=20) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+[33m[2024-07-20 12:11:39.578][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 12:11:39.578][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 12:11:39.578][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 12:11:39.780][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 12:28:18.572][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 12:28:18.573][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 12:28:18.573][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 12:28:18.582][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 12:28:18.582][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 12:28:18.582][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 12:28:18.696][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 12:43:23.560][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 12:43:23.561][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 12:43:23.561][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 12:43:23.563][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 12:43:23.563][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 12:43:23.563][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 12:43:23.675][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 12:43:26.787][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m16s159ms).
+[33m[2024-07-20 12:47:59.547][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 12:47:59.547][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 12:47:59.547][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 12:47:59.550][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 12:47:59.551][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 12:47:59.551][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 12:47:59.677][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 13:48:59.489][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 13:48:59.489][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 13:48:59.489][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 13:48:59.490][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 13:48:59.490][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 13:48:59.490][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 13:48:59.616][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 14:06:33.540][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 14:06:33.540][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 14:06:33.540][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 14:06:33.594][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 14:06:34.305][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m7s518ms).
+[33m[2024-07-20 14:49:59.705][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 14:49:59.705][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 14:49:59.705][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 14:49:59.710][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 14:49:59.710][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 14:49:59.710][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 14:49:59.832][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 15:50:59.389][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 15:50:59.389][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 15:50:59.389][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 15:50:59.391][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 15:50:59.391][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 15:50:59.391][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 15:50:59.476][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 16:51:59.460][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 16:51:59.461][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 16:51:59.461][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 16:51:59.473][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 16:51:59.473][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 16:51:59.473][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 16:51:59.599][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 16:52:01.558][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h45m27s253ms).
+[33m[2024-07-20 17:52:59.324][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 17:52:59.324][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 17:52:59.324][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 17:52:59.326][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 17:52:59.326][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 17:52:59.326][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 17:52:59.423][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 18:15:49.433][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 18:15:49.433][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 18:15:49.433][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 18:15:49.438][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 18:15:49.438][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 18:15:49.438][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 18:15:49.539][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 18:15:58.562][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m57s4ms).
+[33m[2024-07-20 18:22:08.221][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 18:22:08.221][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 18:22:08.221][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 18:22:08.376][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 18:22:33.579][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m35s15ms).
+[33m[2024-07-20 19:18:34.668][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s650ms), soft-evicting connections from pool.
+[33m[2024-07-20 21:32:35.004][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 21:32:35.010][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 21:32:35.011][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 21:32:35.056][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 21:32:35.056][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 21:32:35.056][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 21:32:35.172][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 21:32:40.239][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m34s72ms).
+[33m[2024-07-20 21:34:38.430][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-07-20 21:34:38.431][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 21:34:38.436][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Client requested disconnect from node 2147483647
+[33m[2024-07-20 21:34:38.541][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-recordListener-1, groupId=recordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-07-20 21:34:56.642][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m16s404ms).

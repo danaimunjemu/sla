@@ -1,0 +1,124 @@
+[33m[2024-09-07 09:44:21.272][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-07 09:44:21.272][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-07 09:44:21.274][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-07 09:44:21.274][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-07 09:44:21.275][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-07 09:44:21.275][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-07 09:44:21.310][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-07 09:44:21.310][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-07 09:44:21.310][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-07 09:44:21.310][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-07 09:44:21.310][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-07 09:44:21.310][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-07 09:44:21.409][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-07 09:44:21.413][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-07 09:44:39.390][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m54s858ms).
+[33m[2024-09-07 09:45:50.916][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m11s526ms).
+[33m[2024-09-07 09:50:44.393][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-07 09:50:44.393][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-07 09:50:44.394][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-07 09:50:44.394][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-07 09:50:44.394][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-07 09:50:44.394][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Client requested disconnect from node 2147483647
+[33m[2024-09-07 09:50:44.405][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-07 09:50:44.405][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-07 09:50:44.405][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-07 09:50:44.406][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-07 09:50:44.406][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: false. Rediscovery will be attempted.
+[33m[2024-09-07 09:50:44.406][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Requesting disconnect from last known coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-07 09:50:44.506][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-07 09:50:44.509][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Discovered group coordinator 127.0.0.1:9092 (id: 2147483647 rack: null)
+[33m[2024-09-07 09:50:57.664][0;39m [31mWARN [0;39m
+                [[36msla-service[0;39m, [31mtraceId[0;39m=[31mNONE[0;39m, [31mspanId[0;39m=NONE] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m6s748ms).
+[33m[2024-09-07 10:11:04.088][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Revoke previously assigned partitions sla-record-create-0
+[33m[2024-09-07 10:11:04.088][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Revoke previously assigned partitions sla-record-update-0, sla-record-update-1, sla-record-update-2
+[33m[2024-09-07 10:11:04.091][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - updateRecordListener: partitions revoked: [sla-record-update-0, sla-record-update-1, sla-record-update-2]
+[33m[2024-09-07 10:11:04.091][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - createRecordListener: partitions revoked: [sla-record-create-0]
+[33m[2024-09-07 10:11:04.093][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Member consumer-updateRecordListener-2-a217682d-4766-4ad2-9431-851684a97b33 sending LeaveGroup request to coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+[33m[2024-09-07 10:11:04.093][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Member consumer-createRecordListener-1-4942bd79-839b-4271-bfc7-bc40a25a8eb2 sending LeaveGroup request to coordinator 127.0.0.1:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+[33m[2024-09-07 10:11:04.095][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Resetting generation and member id due to: consumer pro-actively leaving the group
+[33m[2024-09-07 10:11:04.095][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Request joining group due to: consumer pro-actively leaving the group
+[33m[2024-09-07 10:11:04.095][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Resetting generation and member id due to: consumer pro-actively leaving the group
+[33m[2024-09-07 10:11:04.095][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Unsubscribed all topics or patterns and assigned partitions
+[33m[2024-09-07 10:11:04.095][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Request joining group due to: consumer pro-actively leaving the group
+[33m[2024-09-07 10:11:04.095][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Unsubscribed all topics or patterns and assigned partitions
+[33m[2024-09-07 10:11:04.103][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Resetting generation and member id due to: consumer pro-actively leaving the group
+[33m[2024-09-07 10:11:04.103][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Resetting generation and member id due to: consumer pro-actively leaving the group
+[33m[2024-09-07 10:11:04.103][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-createRecordListener-1, groupId=createRecordListener] Request joining group due to: consumer pro-actively leaving the group
+[33m[2024-09-07 10:11:04.104][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - [Consumer clientId=consumer-updateRecordListener-2, groupId=updateRecordListener] Request joining group due to: consumer pro-actively leaving the group
+[33m[2024-09-07 10:11:04.534][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Metrics scheduler closed
+[33m[2024-09-07 10:11:04.534][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Metrics scheduler closed
+[33m[2024-09-07 10:11:04.534][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[33m[2024-09-07 10:11:04.534][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[33m[2024-09-07 10:11:04.535][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+[33m[2024-09-07 10:11:04.535][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Metrics reporters closed
+[33m[2024-09-07 10:11:04.535][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+[33m[2024-09-07 10:11:04.535][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Metrics reporters closed
+[33m[2024-09-07 10:11:04.549][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - App info kafka.consumer for consumer-createRecordListener-1 unregistered
+[33m[2024-09-07 10:11:04.549][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - App info kafka.consumer for consumer-updateRecordListener-2 unregistered
+[33m[2024-09-07 10:11:04.550][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - createRecordListener: Consumer stopped
+[33m[2024-09-07 10:11:04.550][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - updateRecordListener: Consumer stopped
+[33m[2024-09-07 10:11:04.604][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[33m[2024-09-07 10:11:04.625][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Shutdown initiated...
+[33m[2024-09-07 10:11:04.630][0;39m [34mINFO [0;39m
+                [[36msla-service[0;39m, [34mtraceId[0;39m=[31mNONE[0;39m, [34mspanId[0;39m=NONE] - HikariPool-1 - Shutdown completed.

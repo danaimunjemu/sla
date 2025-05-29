@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1725885247622-1
+      author: danaimunjemu (generated)
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addColumn:
+            columns:
+              - column:
+                  name: hold_count
+                  type: INT
+            tableName: record
+

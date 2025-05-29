@@ -1,0 +1,16 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1740475665034-1
+      author: danaimunjemu (generated)
+      objectQuotingStrategy: QUOTE_ONLY_RESERVED_WORDS
+      changes:
+        - addColumn:
+            columns:
+              - column:
+                  name: managers_time
+                  type: INT
+              - column:
+                  name: requires_manager
+                  type: BOOLEAN
+            tableName: agreement
+
